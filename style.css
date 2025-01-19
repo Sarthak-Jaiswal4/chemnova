@@ -1,0 +1,11 @@
+.noise{
+    background: transparent url(noise-50.png) repeat center center !important;
+    opacity: 0.7;
+}
+.noise1{
+    background: transparent url(noise-50.png) repeat center center !important;
+}
+@font-face {
+    font-family: "Cookie";
+    src: url(./New_Amsterdam/NewAmsterdam-Regular.ttf);
+}
