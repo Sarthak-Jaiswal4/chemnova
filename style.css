@@ -9,3 +9,44 @@
     font-family: "Cookie";
     src: url(./New_Amsterdam/NewAmsterdam-Regular.ttf);
 }
+.conference-background-1 {
+    background: 
+      linear-gradient(0deg, rgba(0, 102, 102, 0.9) 40%, transparent),
+      linear-gradient(180deg, rgba(0, 0, 0, 1) 30%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .conference-background-2 {
+    background: 
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 70%, transparent),
+    linear-gradient(180deg, rgb(19,91,86,1) 70%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .conference-background-3 {
+    background: 
+    linear-gradient(0deg, rgb(11,44,65,1) 70%, transparent),
+    linear-gradient(180deg, rgb(19,91,86,1) 70%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .fancy-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1px 0;
+    background-color: black;
+  }
+  
+  .fancy-divider::before,
+  .fancy-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: white;
+  }
+  
+  .fancy-divider span {
+    padding: 0 20px;
+    font-size: 20px;
+    overflow: visible;
+    background-color: black;
+    color: white;
+  }
