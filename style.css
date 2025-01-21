@@ -23,8 +23,14 @@
   }
   .conference-background-3 {
     background: 
-    linear-gradient(0deg, rgb(11,44,65,1) 70%, transparent),
-    linear-gradient(180deg, rgb(19,91,86,1) 70%, transparent);
+    linear-gradient(180deg, rgb(0,0,0,1) 60%, transparent),
+    linear-gradient(360deg, rgb(19,91,86,1) 30%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .conference-background-4 {
+    background: 
+    linear-gradient(180deg, rgb(0,0,0,1) 60%, transparent),
+    linear-gradient(360deg, rgb(42,87,114,1) 30%, transparent);
     backdrop-filter: blur(10px);
   }
   .fancy-divider {
