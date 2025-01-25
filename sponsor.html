@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="relative min-h-screen w-full overflow-hidden bg-teal-800">
+        <!-- Background container -->
+        <div class="absolute top-[-20%] left-[-10%] w-96 h-96 rounded-full bg-teal-700 blur-3xl opacity-60"></div>
+        <div class="absolute top-[20%] right-[-15%] w-[32rem] h-[32rem] rounded-full bg-teal-800 blur-3xl opacity-80"></div>
+        <div class="absolute bottom-[-10%] left-[20%] w-[40rem] h-[40rem] rounded-full bg-teal-700 blur-3xl opacity-45"></div>
+        <div class="absolute top-[-10%] right-[-10%] w-[80%] h-[7rem] rounded-full bg-slate-900 blur-3xl opacity-80"></div>
+
+        <div class="noise1 text-black w-full h-screen py-8 text-white relative">
+               <div class="w-full flex justify-center items-center gap-8">
+                    <div class="flex gap-6 bg-white p-2 px-5 rounded-3xl text-lg font-medium text-black opacity-80 shadow-2xl">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="speaker.html">Speakers</a>
+                        <a href="sponsor.html" class="font-bold">Sponsor</a>
+                    </div>
+               </div>
+               <div class="w-full h-[90%] flex justify-center items-center relative">
+                    <h1 class="text-[17vw] md:text-[13vw] font-bold tracking-wider text-[#E9FFF9] font-[Cookie]">Sponsorship</h1>
+               </div>
+        </div>   
+    </div>
+    <div class="w-full min-h-screen conference-background-2">
+        <div class="w-full h-full noise1 py-20">
+            <h1 class="text-[8.5vw] md:text-[6rem] font-[Cookie] tracking-wide font-bold  pb-7 md:pb-0  text-[#A6CFD5] page-headingspon text-center">Sponsorship Levels</h1>
+                            <h1 class="text-center font-normal text-[1.9rem] text-white pb-14 tracking-wide font-sans font-semibold leading-10">Choose a Package</h1>
+
+                            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <!-- Technology Partner -->
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Technology Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹10,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>One Banner Standee at the Entrance</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>20 mins Speaker Slot</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>10 Delegate Passes</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Stall for Exhibition</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>3x2 Display Space</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Guest of Honour will be given in Inaugural</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg" >
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Diamond Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 border-y-[1.5px] border-black py-2">
+                                        ₹8,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>20 mins Speaker Slot</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>10 Delegate Passes</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Stall for Exhibition</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on each & every Banner, Poster and
+                                                Registration kits</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                        
+                                <!-- Platinum -->
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Platinum Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹5,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>One Banner Standee at the Entrance</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>15 mins Speaker Slot</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>8 Delegate Passes</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Stall for Exhibition</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                        
+                                <!-- Gold -->
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Gold</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹3,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>10 mins Speaker Slot</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>5 Delegate Passes</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Stall for Exhibition</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                        
+                                <!-- Silver -->
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Silver Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹2,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>3 Delegate Passes</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Stall for Exhibition</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                        
+                                <!-- Bronze -->
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Associate Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹1,00,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>3 Delegate Passes</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+                                
+                                <div class="bg-[#7F96FF] rounded-lg p-6 flex flex-col shadow-lg">
+                                    <h2 class="text-xl md:text-2xl font-bold  text-black text-center mb-4">Technical Partner</h2>
+                                    <div class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">
+                                        ₹75,000
+                                    </div>
+                                    <ul class="text-white space-y-2 flex-grow text-sm md:text-base">
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Backdrop</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>Logo on the Entrance Gate</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="mr-2">✓</span>
+                                            <span>1 Delegate Passes</span>
+                                        </li>
+                                    </ul>
+                                    <div class="text-sm text-white mt-4 text-center">Plus 18% GST Applicable</div>
+                                    <button onclick="openModal()" class="mt-6 bg-white text-black py-2 px-4 rounded font-bold hover:bg-gray-100 transition-colors w-full SponsorReg">
+                                        <h1>GET STARTED</h1>
+                                    </button>
+                                </div>
+
+                            </div>
+        </div>
+        <div class="w-full text-white bg-black flex justify-center items-center ">
+            <div class="fancy-divider noise1 h-auto w-[80%]">
+                <span class="noise1">×</span>
+            </div>
+        </div>
+        <div class="w-full h-full noise1 py-20">
+            <div class="container mx-auto py-8">
+                <h1 class="text-[8.5vw] md:text-[6rem] font-[Cookie] tracking-wide font-bold  pb-7 md:pb-0  text-[#A6CFD5] page-headingspon text-center">Souvenir Advertisement Rates</h1>
+                <h1 class="text-center font-normal text-[1.9rem] text-white pb-14 tracking-wide font-sans font-semibold leading-10">Choose a Souvenir</h1>
+                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Front Cover Inside Page</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 40,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Back Cover page</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 35,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Back Inside page</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 30,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Full page color</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 15,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Half Page color</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 10,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Quarter page color</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 6,500</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Full page B/w</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 10,000</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Half page B/w</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 7,500</p>
+                  </div>
+                  <div class="bg-[#7F96FF] shadow-md rounded-lg p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-black text-center mb-4">Quarter page</h2>
+                    <p class="text-2xl md:text-3xl font-bold text-white text-center mb-6 py-2 border-y-[1.5px] border-black">Rs. 4,500</p>
+                  </div>
+                </div>
+        </div>
+
+    </div>
+
+    <footer class="h-auto w-full flex flex-col conference-background-3 text-white md:px-16 pb-20 md:pb-10 footer-page">
+        <div class="w-full h-full flex md:flex-row flex-col-reverse md:pt-10 pt-10">
+            <div class="container py-10 md:py-20 text-center flex flex-col items-center  md:pt-0 pt-20">
+                <h2 class="text-[8.2vw] md:text-[2.5rem] font-semibold font-[Cookie] tracking-widest footer pb-4 md:w-[50%] border-b-[1px]">InDACON 2025</h2>
+                <div class="w-full h-10 flex text-white text-center justify-center md:pb-0 pb-16">
+                    <div class="flex space-x-6 mb-16 pt-8 px-8"> 
+                        <a href="https://www.instagram.com/iiche_hbtu?igsh=bzh1MWpyNXZmbzBt" class="text-white hover:text-gray-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/iiche-student-chapter-hbtu/" class="text-white hover:text-gray-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@iicheschbtu" class="text-white hover:text-gray-300">
+                            <svg viewBox="0 0 24 24" class="w-6 h-6">
+                                <path 
+                                fill="#FFFFFF" 
+                                d="M23.5 6.2c-.3-1-1-1.8-2-2.1C19.9 3.6 12 3.6 12 3.6s-7.9 0-9.5.5c-1 .3-1.7 1.1-2 2.1C0 7.8 0 12 0 12s0 4.2.5 5.8c.3 1 1 1.8 2 2.1 1.6.5 9.5.5 9.5.5s7.9 0 9.5-.5c1-.3 1.7-1.1 2-2.1.5-1.6.5-5.8.5-5.8s0-4.2-.5-5.8zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container md:py-8 px-8">
+                <div class="max-w-4xl footer">
+                    <div class="w-full h-full flex gap-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
+                            <path 
+                              fill="#FFFFFF" 
+                              d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
+                            />
+                          </svg>
+                        <h3 class="text-3xl font-semibold mb-3 font-[Cookie] tracking-widest">CONTACT DETAILS</h3>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col pb-6">
+                            <p class="font-semibold pb-2">Faculty Coordinators:</p>
+                            <ul class="space-y-1">
+                                <li>Dr. S.V.A.R. Sastry, Associate Professor</li>
+                                <li>Dr. Shravan Kumar, Assistant Professor</li>
+                            </ul>
+                        </div> 
+                    </div>
+                        <div class="space-y-1">
+                            <p>School of Chemical Technology, HBTU, Kanpur, U.P.</p>
+                            <p>Pin-208002</p>
+                            <p class="font-semibold">Phone: 7093423964, 7577082588</p>
+                            <p class="flex flex-col">Email: 
+                                <a href="mailto:svarsastry@hbtu.ac.in" class="pl-12 hover:underline underline-offset-4 duration-300 hover:text-blue-300">svarsastry@hbtu.ac.in</a>
+                                <a href="mailto:shravan.k@hbtu.ac.in" class="pl-12 hover:underline underline-offset-4 duration-300 hover:text-blue-300">shravan.k@hbtu.ac.in</a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
