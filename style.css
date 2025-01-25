@@ -17,9 +17,9 @@
   }
   .conference-background-2 {
     background: 
-    linear-gradient(0deg, rgba(0, 0, 0, 1) 70%, transparent),
-    linear-gradient(180deg, rgb(19,91,86,1) 70%, transparent);
-    backdrop-filter: blur(10px);
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 60%, transparent),
+    linear-gradient(180deg, rgb(19,91,86,1) 50%, transparent);
+    backdrop-filter: blur(20px);
   }
   .conference-background-3 {
     background: 
@@ -56,3 +56,24 @@
     background-color: black;
     color: white;
   }
+.SponsorReg{
+  position: relative;
+
+  h1{
+    position: relative;
+  }
+}
+.SponsorReg::before{
+  content: '';
+  right: 0;
+  background-color: #A6CFD5;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+.SponsorReg:hover::before{
+  left: 0;
+  width: 100%;
+}
