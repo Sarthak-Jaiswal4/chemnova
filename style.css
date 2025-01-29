@@ -9,6 +9,10 @@
     font-family: "Cookie";
     src: url(./New_Amsterdam/NewAmsterdam-Regular.ttf);
 }
+@font-face {
+  font-family: "Date";
+  src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
 .conference-background-1 {
     background: 
       linear-gradient(0deg, rgba(0, 102, 102, 0.9) 40%, transparent),
